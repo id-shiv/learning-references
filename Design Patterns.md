@@ -33,9 +33,9 @@
 ## Momento Pattern
 
 To implement undo mechanisms.
-![image](images/design_patterns-Momento.png)
+![image](_images/design_patterns-Momento.png)
 
 ## State Pattern
 
 Allows an object to behave differently when its state changes.
-![image](images/design_patterns-State.png)
+![image](_simages/design_patterns-State.png)

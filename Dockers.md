@@ -36,18 +36,18 @@ Contains layers of images
 - `docker images` - list all downloaded docker images.
 - `docker run <image-name>:<version>` - pull and directly run the docker image from docker repository in the local machine as docker container.
 - `docker ps` - list the running containers. Use `-a` option to list containers that are not running.
-![docker-layers](images/docker-ps.png)
+![docker-layers](_images/docker-ps.png)
 - `docker start`, `docker stop` - start \ stop containers.
-![docker-layers](images/docker-layers.png)
+![docker-layers](_images/docker-layers.png)
 - `docker logs <container-id>\<container-name>` - to debug issues.
 - `docker exec -it <container-id> /bin/bash` or `/bin/sh` (`-it` denotes interactive shell)
 
 ## Sample docker workflow
 
-![docker-layers](images/docker-workflow.png)
+![docker-layers](_images/docker-workflow.png)
 
 ## Dockerfile: Build your own docker image
 
 - Blueprint for building docker images
-![docker-layers](images/docker-file.png)
+![docker-layers](_simages/docker-file.png)
 - `docker build <application-name>:<application-version>`
