@@ -23,7 +23,6 @@ Creates a portable artifact (docker build) that can package an application with 
 - Every container port needs to be binded with Host port to access from host.
 - This allows multiple containers to run with same port# binded to a different host port#.
 
-
 ## What is Docker image made of
 
 Contains layers of images  
@@ -40,3 +39,15 @@ Contains layers of images
 ![docker-layers](images/docker-ps.png)
 - `docker start`, `docker stop` - start \ stop containers.
 ![docker-layers](images/docker-layers.png)
+- `docker logs <container-id>\<container-name>` - to debug issues.
+- `docker exec -it <container-id> /bin/bash` or `/bin/sh` (`-it` denotes interactive shell)
+
+## Sample docker workflow
+
+![docker-layers](images/docker-workflow.png)
+
+## Dockerfile: Build your own docker image
+
+- Blueprint for building docker images
+![docker-layers](images/docker-file.png)
+- `docker build <application-name>:<application-version>`
